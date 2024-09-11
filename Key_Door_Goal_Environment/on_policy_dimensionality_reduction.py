@@ -2,7 +2,7 @@ import torch
 import numpy as np
 import matplotlib.pyplot as plt
 from stable_baselines3 import PPO
-from Key_changed_distances import KeyDoorGoalContinuousEnv
+from Key_MDP import KeyDoorGoalContinuousEnv
 from sklearn.manifold import TSNE
 from collections import defaultdict
 
