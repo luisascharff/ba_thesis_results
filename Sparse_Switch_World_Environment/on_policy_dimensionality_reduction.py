@@ -3,7 +3,7 @@ import torch
 import numpy as np
 import matplotlib.pyplot as plt
 from stable_baselines3 import PPO, SAC, TD3
-from SwitchWorldContinuousSA import SwitchWorldContinuousSA
+from Sparse_Switch_World_MDP import SwitchWorldContinuousSA
 from sklearn.manifold import TSNE
 from collections import defaultdict
 
